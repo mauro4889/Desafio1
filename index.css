@@ -17,9 +17,10 @@ body{
     position: fixed;
     top: 0%;
 }
+
 .logo-img{
-    width: 40%;
-    height: 100%;
+    width: 60px;
+    height: 60px;
 }
 .menu{
     display: none;
@@ -134,18 +135,17 @@ label input{
 }
 @media (min-width: 425px){
     .logo-img{
-        width: 40%;
+        width: 70px;
+        height: 70px;
     }
 }
 @media (min-width: 768px){
     .logo-img{
-        width: 38%;
+        width: 80px;
+        height: 80px;
     }
 }
 @media (min-width: 1024px){
-    .logo-img{
-        width: 40%;
-    }
     .nav-label{
         width: 60px;
         height: 60px;
