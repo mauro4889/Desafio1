@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+body{
+    font-family: 'Flamenco', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(31, 31, 31);
+    border-bottom: solid 1px #B1B1B1;
+}
+.logo-img{
+    width: 30%;
+    height: 100%;
+}
+.menu{
+    display: none;
+}
+.nav-menu{
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+    color: #B1B1B1;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(31, 31, 31, .8) !important;
+    font-size: xx-large;
+}
+header{
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+section img{
+    width: 100%;
+}
+p{
+    font-weight: bold;
+}
+h2{
+ margin: 10px auto;
+}
+button{
+    border-radius: 7px;
+    width: 50%;
+    height: 30px;
+    margin: 10px auto;
+    border: solid 1px #FF6600;
+    background-color:rgb(31, 31, 31);
+    color: #B1B1B1;
+    font-size: large;
+}
+.menu:checked + .nav-menu{
+    display: flex;
+    z-index: 100;
+}
+
+
