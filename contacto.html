@@ -8,18 +8,20 @@
     <title>Contacto</title>
 </head>
 <body>
-    <nav class="navbar" id="navbar-header">
-        <img src="./img/logo.png" alt="Logo de Torque" class="logo-img">
-        <label for="menu" class="nav-label">
-            <img src="./assets/menu.svg" alt="Menu" class="nav.img">
-        </label>      
-    <input type="checkbox" id="menu" class="menu">
-   <ul class="nav-menu">
-       <li><a href="index.html">Inicio</a></li>
-       <li><a href="nosotros.html">Sobre nosotros</a></li>
-       <li><a href="#">Contacto</a></li>
-   </ul>
-</nav>
+    <div id="inicio">
+        <nav class="navbar" id="navbar-header">
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo de Torque" class="logo-img"></a>            
+            <label for="menu" class="nav-label" id="inicio">
+                <img src="./assets/menu.svg" alt="Menu" class="nav.img">
+            </label>      
+        <input type="checkbox" id="menu" class="menu">
+       <ul class="nav-menu">
+           <li><a href="#inicio">Inicio</a></li>
+           <li><a href="./nosotros.html">Sobre nosotros</a></li>
+           <li><a href="./contacto.html">Contacto</a></li>
+       </ul>
+    </nav>
+    </div> 
 <form action="">
    <label for="nombre" class="form-datos">
        <span>Nombre: </span>
@@ -31,7 +33,7 @@
    </label>
    <label for="comentario" class="form-info">
        <span>Agregar mas información</span>
-       <textarea name="textarea" cols="30" rows="10"></textarea>
+       <textarea name="" id="" cols="30" rows="10"></textarea>
    </label>
    <input type="submit" value="Enviar" class="btnMain">
 </form>
